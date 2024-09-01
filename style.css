@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+body {
+    background: #7C93C3;
+    margin: 0;
+}
+.cabecalho {
+    width: 100vw;
+    background: #1E2A5E ;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px ;
+    padding-right: 50px;
+    
+}
+
+.film {
+    color: #7C93C3;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+.oteca {
+    color: #7C93C3;
+    font-family: "Permanent Marker", cursive;
+    font-size:38px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+   
+}
+.list-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+    padding-top: 20px;
+    list-style: none;
+
+}
+
+.link {
+    text-decoration: none;
+    color: #7C93C3;
+    font-family: "Handjet", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.mais {
+    cursor: pointer;
+  
+    
+}
+
+
+
+
+
+.link:hover{
+    color: #55679C;
+    transition: 0.3s;
+    
+    
+}
+
+ul li a{
+    display: inline-block;
+    transition: transform 0.3s easy;
+}
+
+
+ul li a:hover{
+    transform: scale(1.1);
+}
+
+.conteudo-1 {
+
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    height: 100;
+}
+
+.col-10 {
+    border-radius: 50px;
+    position: relative;
+}
+.principal-1 {
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+}
+
+body, html{
+    overflow-x: hidden ;
+}
+
+.thumbnail {
+    border: 0.5px solid;
+    width: 200px;
+    height: 200px;
+}
+
+.rodape {
+    background: #55679C;
+    margin: 0;
+    padding: 0;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    font-family: "Poppins", sans-serif;
+    color: #1E2A5E;
+    font-weight: 800;
+}
